@@ -1,0 +1,13 @@
+Leer par.txt
+Leer impar.txt
+Mientras existan registros en los 2 archivos
+    Comparar
+    Si llave par.txt < llave de impar.txt
+        Guardar datos de llave de par.txt en numeros.txt
+        Leer par.txt
+    Si no
+        Guardar datos de llave de impar.txt en numeros.txt
+        Leer impar.txt
+    Fin
+Como ya se acabo uno de los 2 archivos
+    Guardar los registros restantes en numeros.txt
